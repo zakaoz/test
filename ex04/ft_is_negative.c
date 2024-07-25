@@ -6,13 +6,13 @@
 /*   By: zaafrani <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/07/24 17:42:46 by zaafrani          #+#    #+#             */
-/*   Updated: 2024/07/24 17:59:50 by zaafrani         ###   ########.fr       */
+/*   Updated: 2024/07/24 23:43:02 by zaafrani         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include<unistd.h>
+#include <unistd.h>
 
-void ft_is_negative(int n)
+void	ft_is_negative(int n)
 
 {
 	if (n < 0)
@@ -23,11 +23,4 @@ void ft_is_negative(int n)
 	{
 		write(1, "P\n", 2);
 	}
-}
-
-int main()
-
-{
-	ft_is_negative(-1);
-	ft_is_negative(1);
 }
